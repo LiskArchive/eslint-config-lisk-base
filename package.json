@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "description": "Base eslint config for Lisk projects.",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
   "license": "GPL-3.0",
   "devDependencies": {
-    "eslint-config-airbnb-base": "=11.2.0"
+    "eslint": "=4.2.0",
+    "eslint-config-airbnb-base": "=11.2.0",
+    "eslint-plugin-import": "=2.7.0"
   }
 }
