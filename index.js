@@ -1,6 +1,7 @@
 module.exports = {
 	extends: ['airbnb-base'],
 	rules: {
+		'arrow-parens': ['error', 'as-needed'],
 		camelcase: ['error', { properties: 'always' }],
 		eqeqeq: ['error', 'always'],
 		indent: ['error', 'tab'],
