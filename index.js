@@ -4,7 +4,7 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed'],
 		camelcase: ['error', { properties: 'always' }],
 		eqeqeq: ['error', 'always'],
-		indent: ['error', 'tab'],
+		indent: ['error', 'tab', { SwitchCase: 1 }],
 		'new-cap': ['error', { newIsCap: true, capIsNewExceptionPattern: 'should[.(]' }],
 		'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
 		'no-tabs': 'off',
