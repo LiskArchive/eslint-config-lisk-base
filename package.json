@@ -1,22 +1,24 @@
 {
-  "name": "eslint-config-lisk-base",
-  "version": "0.1.0",
-  "description": "Base eslint config for Lisk projects.",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
-  },
-  "author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
-  "license": "GPL-3.0",
-  "devDependencies": {
-    "eslint": "=4.2.0",
-    "eslint-config-airbnb-base": "=12.1.0",
-    "eslint-plugin-import": "=2.7.0"
-  },
-  "peerDependencies": {
-    "eslint": "^4.2.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0"
-  }
+	"name": "eslint-config-lisk-base",
+	"version": "0.1.0",
+	"description": "Base eslint config for Lisk projects.",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix ."
+	},
+	"author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"eslint": "=4.2.0",
+		"eslint-config-airbnb-base": "=12.1.0",
+		"eslint-plugin-import": "=2.7.0",
+		"eslint-plugin-mocha": "=4.11.0"
+	},
+	"peerDependencies": {
+		"eslint": "^4.2.0",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-plugin-import": "^2.7.0",
+		"eslint-plugin-mocha": "^4.11.0"
+	}
 }
