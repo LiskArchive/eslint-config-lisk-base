@@ -23,6 +23,10 @@ PRs are welcome if the reasoning for the proposed change is provided.
 
 ## Divergence from `eslint-config-airbnb-base`
 
+### `arrow-parens`
+
+Arrow functions can omit parentheses when they have exactly one parameter. This omission is enforced consistently whether there is a block body for the function or not.
+
 ### `camelcase`
 
 Enforce camelcase for properties as well.
