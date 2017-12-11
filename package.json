@@ -27,13 +27,13 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"devDependencies": {
-		"eslint": "=4.2.0",
+		"eslint": "=4.13.0",
 		"eslint-config-airbnb-base": "=12.1.0",
 		"eslint-plugin-import": "=2.7.0",
 		"eslint-plugin-mocha": "=4.11.0"
 	},
 	"peerDependencies": {
-		"eslint": "^4.2.0",
+		"eslint": "^4.13.0",
 		"eslint-config-airbnb-base": "^12.1.0",
 		"eslint-plugin-import": "^2.7.0",
 		"eslint-plugin-mocha": "^4.11.0"
