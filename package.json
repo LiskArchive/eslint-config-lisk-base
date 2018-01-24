@@ -1,41 +1,41 @@
 {
-	"name": "eslint-config-lisk-base",
-	"version": "0.1.0",
-	"description": "Base eslint config for Lisk projects.",
-	"author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
-	"license": "GPL-3.0",
-	"keywords": [
-		"eslint",
-		"lisk",
-		"blockchain"
-	],
-	"homepage": "https://github.com/LiskHQ/eslint-config-lisk-base#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/LiskHQ/eslint-config-lisk-base.git"
-	},
-	"bugs": {
-		"url": "https://github.com/LiskHQ/eslint-config-lisk-base/issues"
-	},
-	"engines": {
-		"node": ">=6.11.1",
-		"npm": ">=3.10.0"
-	},
-	"main": "index.js",
-	"scripts": {
-		"lint": "eslint .",
-		"lint:fix": "eslint --fix ."
-	},
-	"devDependencies": {
-		"eslint": "=4.16.0",
-		"eslint-config-airbnb-base": "=12.1.0",
-		"eslint-plugin-import": "=2.8.0",
-		"eslint-plugin-mocha": "=4.11.0"
-	},
-	"peerDependencies": {
-		"eslint": "^4.16.0",
-		"eslint-config-airbnb-base": "^12.1.0",
-		"eslint-plugin-import": "^2.8.0",
-		"eslint-plugin-mocha": "^4.11.0"
-	}
+  "name": "eslint-config-lisk-base",
+  "version": "1.0.0",
+  "description": "Base eslint config for Lisk projects.",
+  "author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "eslint",
+    "lisk",
+    "blockchain"
+  ],
+  "homepage": "https://github.com/LiskHQ/eslint-config-lisk-base#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiskHQ/eslint-config-lisk-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiskHQ/eslint-config-lisk-base/issues"
+  },
+  "engines": {
+    "node": ">=6.11.1",
+    "npm": ">=3.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "=4.16.0",
+    "eslint-config-airbnb-base": "=12.1.0",
+    "eslint-plugin-import": "=2.8.0",
+    "eslint-plugin-mocha": "=4.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0"
+  }
 }
