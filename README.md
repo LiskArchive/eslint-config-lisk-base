@@ -53,6 +53,10 @@ Don’t leave console statements lying around. Exceptions for `console.error`, `
 
 So that imports have a logical structure: built-in node modules, external dependencies, parent modules, siblings, then directory index. This is especially helpful in files that have a lot of imports.
 
+### `mocha/no-async-describe`
+
+This rule disallows the use of an `async` function with `describe`.
+
 ### `mocha/handle-done-callback`
 
 So that you don’t forget to call the `done` callback in a test.

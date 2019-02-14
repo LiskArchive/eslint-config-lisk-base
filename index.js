@@ -13,6 +13,7 @@ module.exports = {
 		'import/order': 'error',
 		'mocha/handle-done-callback': 'error',
 		'mocha/max-top-level-suites': 'warn',
+		'mocha/no-async-describe': 'error',
 		'mocha/no-exclusive-tests': 'error',
 		'mocha/no-global-tests': 'error',
 		'mocha/no-identical-title': 'error',
