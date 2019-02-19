@@ -1,5 +1,6 @@
 module.exports = {
 	extends: ['airbnb-base'],
+	plugins: ['mocha'],
 	rules: {
 		// Our preferences
 		'arrow-parens': ['error', 'as-needed'],
