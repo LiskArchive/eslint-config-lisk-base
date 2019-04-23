@@ -1,9 +1,9 @@
 module.exports = {
-	plugins: ["jest"],
+	plugins: ['jest'],
 	env: {
-		"jest/globals": true
+		'jest/globals': true,
 	},
 	rules: {
-		"import/no-extraneous-dependencies": ["error", { devDependencies: true }]
-	}
+		'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+	},
 };
