@@ -6,7 +6,10 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed'],
 		camelcase: ['error', { properties: 'always' }],
 		eqeqeq: ['error', 'always'],
-		'new-cap': ['error', { newIsCap: true, capIsNewExceptionPattern: 'should[.(]' }],
+		'new-cap': [
+			'error',
+			{ newIsCap: true, capIsNewExceptionPattern: 'should[.(]' },
+		],
 		'no-console': ['error', { allow: ['error', 'info', 'warn'] }],
 		'no-tabs': 'off',
 
