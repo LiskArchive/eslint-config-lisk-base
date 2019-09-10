@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-lisk-base",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Base eslint config for Lisk projects.",
 	"author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
 	"license": "GPL-3.0",
