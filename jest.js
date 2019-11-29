@@ -6,6 +6,6 @@ module.exports = {
 	},
 	rules: {
 		'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-		'consistent-test-it': ['error'],
+		'jest/consistent-test-it': ['error'],
 	},
 };
