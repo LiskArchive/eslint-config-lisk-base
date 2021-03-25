@@ -1,4 +1,3 @@
 {
-  "extends": "./index.js",
-	"plugins": ["mocha"]
+  "extends": "./index.js"
 }
